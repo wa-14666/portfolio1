@@ -1,0 +1,115 @@
+/* ตั้งค่าพื้นฐาน */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Arial", sans-serif;
+}
+
+body{
+    background:#eaf6ff;
+    color:#333;
+}
+
+
+/* เมนูด้านบน */
+nav{
+    background:#8ed0f7;
+    padding:15px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:#005b96;
+}
+
+
+/* ส่วนเนื้อหา */
+.container{
+    width:80%;
+    margin:auto;
+    padding:40px 0;
+}
+
+
+/* กล่องข้อมูล */
+.card{
+    background:white;
+    padding:30px;
+    margin:20px 0;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* รูปโปรไฟล์ */
+.profile{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+/* ปุ่ม */
+.button{
+    display:inline-block;
+    background:#5bbcff;
+    color:white;
+    padding:12px 25px;
+    border-radius:25px;
+    text-decoration:none;
+    margin-top:20px;
+}
+
+.button:hover{
+    background:#238bd2;
+}
+
+
+/* Footer */
+footer{
+    background:#8ed0f7;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+
+/* มือถือ */
+@media(max-width:700px){
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+.container{
+    width:90%;
+}
+
+}
