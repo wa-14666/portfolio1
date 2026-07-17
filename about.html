@@ -1,58 +1,90 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <style>
-        body{
-            margin:0;
-            font-family:Arial,sans-serif;
-            background:#0000FF;
-        }
-        .container{
-            max-width:800px;
-            margin:60px auto;
-            background:#fff;
-            padding:30px;
-            border-radius:12px;
-            box-shadow:0 5px 15px rgba(0,0,0,.1);
-        }
-        h1{
-            color:#333;
-        }
-        p{
-            color:#555;
-            line-height:1.8;
-        }
-        .btn{
-            display:inline-block;
-            margin-top:20px;
-            padding:10px 20px;
-            background:#007bff;
-            color:#FFFFFF;
-            text-decoration:none;
-            border-radius:8px;
-        }
-        .btn:hover{
-            background:#0056b3;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ประวัติของฉัน</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.card{
+    width:90%;
+    max-width:600px;
+    margin:60px auto;
+    background:#fff;
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #4facfe;
+}
+
+h1{
+    color:#333;
+    margin-top:15px;
+}
+
+p{
+    color:#555;
+    line-height:1.8;
+}
+
+.info{
+    text-align:left;
+    margin-top:20px;
+}
+
+.info p{
+    margin:8px 0;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#4facfe;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.btn:hover{
+    background:#0077ff;
+}
+</style>
+
 </head>
 <body>
 
-<div class="container">
-    <h1>👋 About Me</h1>
-    <p>
-        สวัสดีครับ ผมชื่อ <strong>Jakkarin Khamchim</strong><br>
-        ผมเป็นนักเรียน ชั้น6/6 โรงเรียนพานทอง
-    </p>
+<div class="card">
+    <img src="profile.jpg" alt="รูปโปรไฟล์">
 
-    <p>
-        ยินดีต้อนรับสู่เว็บไซต์ของผม ขอบคุณที่เข้ามาเยี่ยมชม
-    </p>
+    <h1>ประวัติของฉัน</h1>
 
-    <a href="index.html" class="btn">🏠 กลับหน้าหลัก</a>
+    <p>สวัสดีครับ ยินดีต้อนรับสู่หน้าแนะนำตัวของผม</p>
+
+    <div class="info">
+        <p><strong>ชื่อ:</strong> Jakkarin Khamchim</p>
+        <p><strong>อายุ:</strong> 17 ปี</p>
+        <p><strong>อาชีพ:</strong> นักเรียน</p>
+        <p><strong>งานอดิเรก:</strong> เล่นเกม </p>
+        <p><strong>ทักษะ:</strong> เตะบอลt</p>
+        <p><strong>อีเมล:</strong> jakkarinvax2@email.com</p>
+    </div>
+
+    <a href="index.html" class="btn">กลับหน้าหลัก</a>
 </div>
 
 </body>
