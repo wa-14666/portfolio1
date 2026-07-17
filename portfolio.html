@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ผลงานของฉัน</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+.container{
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+}
+h1{
+    text-align:center;
+    color:#333;
+}
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.card{
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    overflow:hidden;
+}
+.card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+.card h3{
+    margin:15px;
+}
+.card p{
+    margin:0 15px 15px;
+    color:#666;
+}
+.btn{
+    display:block;
+    width:180px;
+    margin:30px auto;
+    text-align:center;
+    padding:12px;
+    background:#007BFF;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+}
+.btn:hover{
+    background:#0056b3;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>💼 ผลงานของฉัน</h1>
+
+<div class="grid">
+
+<div class="card">
+    <img src="project1.jpg" alt="ผลงาน 1">
+    <h3>เว็บไซต์ร้านค้า</h3>
+    <p>พัฒนาเว็บไซต์ขายสินค้าออนไลน์ด้วย HTML, CSS และ JavaScript</p>
+</div>
+
+<div class="card">
+    <img src="project2.jpg" alt="ผลงาน 2">
+    <h3>เว็บไซต์ประวัติส่วนตัว</h3>
+    <p>ออกแบบเว็บไซต์แนะนำตัว พร้อมหน้า About, Education และ Portfolio</p>
+</div>
+
+<div class="card">
+    <img src="project3.jpg" alt="ผลงาน 3">
+    <h3>ระบบจัดการข้อมูล</h3>
+    <p>สร้างระบบบันทึกข้อมูลด้วย PHP และ MySQL</p>
+</div>
+
+</div>
+
+<a href="index.html" class="btn">🏠 กลับหน้าหลัก</a>
+
+</div>
+
+</body>
+</html>
